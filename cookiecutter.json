@@ -1,0 +1,7 @@
+{
+  "project_name": "My Dash App",
+  "project_shortname": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "app_name": "application",
+  "description": "Set up a modern web app with separated front-end and back-end by running one command",
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
