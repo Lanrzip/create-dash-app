@@ -35,4 +35,3 @@ To use this boilerplate:
     python frontend/app.py
     python server/app.py  # in a separate terminal
     ```
-   
