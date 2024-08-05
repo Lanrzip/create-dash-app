@@ -47,11 +47,6 @@ def router(pathname, url_trigger):
                 app_mount=index.render_content(),
                 redirect_container=None
             )
-        elif pathname == '/api-test':
-            return dict(
-                app_mount=api_test.render_content(),
-                redirect_container=None
-            )
         
     else:
         return dict(
