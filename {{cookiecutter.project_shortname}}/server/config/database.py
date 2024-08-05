@@ -11,7 +11,7 @@ from config.env import DataBaseConfig
 
 
 # SQLite
-SQLALCHEMY_DATABASE_URL = "sqlite:///./test.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./server/test.db"
 
 
 engine = create_engine(
